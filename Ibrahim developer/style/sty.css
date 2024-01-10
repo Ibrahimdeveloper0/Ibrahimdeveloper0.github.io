@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    /* Yatay kaydırma çubuğunu gizle */
+}
+
+footer {
+    background-color: #f7f1f1;
+    text-align: center;
+    padding: 5px;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.header {
+    background-color: #438efd;
+    color: white;
+    padding: 0%;
+    width: 100%;
+    position: fixed;
+    /* Header'ı sabit konumda tut */
+    top: 0;
+    /* Ekranın üst kısmına sabitlenmesini sağla */
+    z-index: 1000;
+    /* Gerekirse diğer elementlerin üzerine çıkmasını sağlamak için z-index kullanabilirsiniz */
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.a1 {
+    display: flex;
+    color: wheat;
+    margin-left: auto;
+}
+
+.a1 a {
+    margin-left: 50px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+}
+
+.a1 a:hover {
+    color: maroon;
+}
+
+.right {
+    margin-right: 40px;
+}
+
+.name {
+    font-size: 1.6em;
+    margin-left: 10px;
+}
+
+#simge {
+    color: white;
+    font-size: 1.3em;
+
+}
+
+#simge:hover {
+    color: maroon;
+}
+
+.content {
+    padding: 20px;
+}
+
+
+.b1 {
+    color: black;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-left: 250px;
+    margin-top: 130px;
+    display: block;
+}
+
+.line {
+    border-top: 2px solid #737a73;
+    /* Çizgi rengini ayarlayabilirsiniz (#00ff00 yeşil renk örneği) */
+    width: 60%;
+    /* Çizginin uzunluğunu ayarlayabilirsiniz */
+    margin-left: 190px;
+    margin-top: 45px;
+}
+
+.metn1 {
+    margin-left: 250px;
+    text-decoration: none;
+    color: rgb(68, 65, 65);
+    margin-top: 11px;
+    display: block;
+}
+
+
+
+.b2 {
+    text-decoration: none;
+    margin-top: 30px;
+    display: block;
+    color: black;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-left: 250px;
+}
+
+.metn2 {
+    margin-left: 250px;
+    text-decoration: none;
+    display: block;
+    margin-top: 11px;
+    color: rgb(68, 65, 65)
+}
+
+.hover1 a:hover {
+    color: black;
+}
+
+.hover2 a:hover {
+    color: black;
+}
+
+
+.instagram {
+    text-decoration: none;
+    margin-top: 120px;
+    font-size: 1em;
+    margin-left: 134px;
+}
+
+.instagram img {
+    width: 40px;
+    /* Ayarlamak istediğiniz genişliği ayarlayın */
+    height: auto;
+}
+
+.github {
+    text-decoration: none;
+    margin-top: -43px;
+    font-size: 1em;
+    margin-left: 184px;
+}
+
+.github img {
+    width: 40px;
+    height: auto;
+}
+
+.youtube {
+    text-decoration: none;
+    margin-top: -40px;
+    font-size: 1em;
+    margin-left: 234px;
+}
+
+.youtube img {
+    width: 48px;
+    height: auto;
+}
+
+.name1 {
+    margin-left: 140px;
+    margin-top: 3px;
+}
+
+.metna {
+    margin-left: 140px;
+}
